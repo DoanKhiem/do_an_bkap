@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('user.index');
 })->name('user.index');
+
+Route::get('/shop', function () {
+    return view('user.shop');
+})->name('user.shop');
