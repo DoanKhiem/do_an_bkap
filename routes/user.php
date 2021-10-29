@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-require_once('admin.php');
-require_once('user.php');
+Route::get('/', function () {
+    return view('user.index');
+})->name('user.index');
