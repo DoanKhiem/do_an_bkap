@@ -1,5 +1,5 @@
 @extends('user.layouts.master')
-@section('title', 'Trang chủ')
+@section('title', 'Danh sách sản phẩm')
 @section('master')
     <!-- breadcrumb-area start -->
     @include('user.layouts.breadcrumb-area')
