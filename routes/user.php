@@ -36,3 +36,7 @@ Route::get('/cart', function () {
 Route::get('/blog', function () {
     return view('user.blog');
 })->name('user.blog');
+
+Route::get('/404', function () {
+    return view('user.errors.404');
+})->name('user.404');
