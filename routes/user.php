@@ -24,3 +24,7 @@ Route::get('/shop', function () {
 Route::get('/product-detail', function () {
     return view('user.product-detail');
 })->name('user.product-detail');
+
+Route::get('/login-register', function () {
+    return view('user.login-register');
+})->name('user.login-register');
