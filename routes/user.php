@@ -45,4 +45,8 @@ Route::get('/wishlist', function () {
     return view('user.wishlist');
 })->name('user.wishlist');
 
+Route::get('/my-account', function () {
+    return view('user.my-account');
+})->name('user.my-account');
+
 
