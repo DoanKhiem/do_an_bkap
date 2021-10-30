@@ -41,4 +41,8 @@ Route::get('/checkout', function () {
     return view('user.checkout');
 })->name('user.checkout');
 
+Route::get('/wishlist', function () {
+    return view('user.wishlist');
+})->name('user.wishlist');
+
 
