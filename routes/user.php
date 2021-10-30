@@ -28,3 +28,7 @@ Route::get('/product-detail', function () {
 Route::get('/login-register', function () {
     return view('user.login-register');
 })->name('user.login-register');
+
+Route::get('/cart', function () {
+    return view('user.cart');
+})->name('user.cart');
