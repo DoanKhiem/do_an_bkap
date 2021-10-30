@@ -32,3 +32,7 @@ Route::get('/login-register', function () {
 Route::get('/cart', function () {
     return view('user.cart');
 })->name('user.cart');
+
+Route::get('/blog', function () {
+    return view('user.blog');
+})->name('user.blog');
